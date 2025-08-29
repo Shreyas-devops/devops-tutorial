@@ -27,3 +27,5 @@ else
 echo 'Docker installation failed on $(hostname)'
 echo '=================================================================================='
 fi
+cat  /var/log/cloud-init-output.log
+
